@@ -9,9 +9,6 @@
 	@include tablet {
 		margin-bottom: 20px;
 	}
-	@include mobile {
-		margin-right: 0;
-	}
 	&:hover {
 		transform: translateY(-20px);
 	}

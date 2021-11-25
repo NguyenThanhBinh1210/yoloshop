@@ -152,6 +152,9 @@
 		bottom: 5%;
 		left: 50%;
 		transform: translateX(-50%);
+		@include tablet {
+			margin-top: 100px;
+		}
 
 		&__item ~ &__item {
 			margin-left: 10px;

@@ -6,12 +6,7 @@
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 15px,
 		rgba(149, 157, 165, 0.2) 0 -8px 15px;
 	transition: transform 0.5s ease;
-	@include tablet {
-		margin-bottom: 20px;
-	}
-	@include mobile {
-		margin-right: 0;
-	}
+
 	&:hover {
 		transform: translateY(-20px);
 	}
