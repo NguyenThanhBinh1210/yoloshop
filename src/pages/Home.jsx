@@ -57,7 +57,7 @@ const Home = () => {
 				<SectionTitle>Sản phẩm mới trong tuần</SectionTitle>
 				<SectionBody>
 					<Grid col={4} mdCol={2} smCol={1}>
-						{productData.getProducts(12).map((item, index) => (
+						{productData.getProducts(4).map((item, index) => (
 							<ProductCard
 								key={index}
 								img1={item.image01}
