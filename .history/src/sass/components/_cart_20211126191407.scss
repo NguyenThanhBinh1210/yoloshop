@@ -1,0 +1,16 @@
+.cart {
+	@include flex(flex-start, flex-start);
+	@include mobile {
+		flex-wrap: wrap;
+	}
+
+	&__info {
+		width: 40%;
+		margin-right: 30px;
+		margin-top: 30px;
+		padding: 20px;
+		box-shadow: $box-shadow;
+		position: sticky;
+		top: calc(#{$header-shrink-height} + 20px);
+	}
+}

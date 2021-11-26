@@ -1,0 +1,13 @@
+.cart {
+	@include flex(flex-start, flex-start);
+	@include mobile {
+		flex-wrap: wrap;
+	}
+
+	&__info {
+		width: 40%;
+
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+}

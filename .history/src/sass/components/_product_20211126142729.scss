@@ -1,0 +1,7 @@
+.product {
+	@include flex(flex-start, flex-start);
+
+	&__images {
+		@include flex(flex-start, flex-start);
+	}
+}
